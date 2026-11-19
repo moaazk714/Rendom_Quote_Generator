@@ -1,27 +1,92 @@
-# Daily Spark
+# Daily Spark – Random Quote Generator
 
-Daily Spark is a Flutter quote app for discovering inspiration, curating favorite quotes, and saving personal quotes on-device.
+Daily Spark is a Flutter-based quote application that helps users discover inspiring quotes, save favorites, and create their own quotes. It also includes a mindful reflection feature for a short breathing break.
 
 ## Features
 
-- Browse a curated collection of quotes with author and category details.
-- Generate quotes, copy them, and save or remove favorites.
-- Filter favorites by category.
-- Create, search, and delete custom quotes.
-- Use the mindful reflection breathing timer.
-- Persist custom quotes and favorites locally with SharedPreferences.
+- **Random Quotes:** Discover quotes from the app's collection.
+- **Quote Details:** View each quote with its author and category.
+- **Favorites:** Save quotes and revisit them later.
+- **Category Filtering:** Explore quotes by category.
+- **Custom Quotes:** Create, search, and delete your own quotes.
+- **Copy Quotes:** Copy a quote to share or save elsewhere.
+- **Mindful Reflection:** Use the breathing timer for a short mindful break.
+- **Local Persistence:** Keep favorites and custom quotes saved on the device.
 
-## Getting started
+## Technologies Used
 
-1. Install the Flutter SDK compatible with the Dart constraint in `pubspec.yaml`.
-2. Fetch dependencies with `flutter pub get`.
-3. Run the app with `flutter run`.
-4. Run static analysis and tests with `flutter analyze` and `flutter test`.
+- Flutter
+- Dart
+- Provider – state management
+- SharedPreferences – local data persistence
+- Google Fonts – Poppins and Newsreader typography
+- Material Design 3
 
-Google Fonts are loaded by the `google_fonts` package; internet access may be needed the first time each font is used unless the fonts are bundled for offline use.
+## Getting Started
 
-## Release checklist
+### Prerequisites
 
-- Configure production Android signing before distributing an Android release. The current Android release build type uses the debug signing configuration.
-- Set up a valid iOS signing team and provisioning profile in Xcode before distributing an iOS build.
-- Review app identifiers, icons, store metadata, and the quote catalog and its attribution before publishing.
+- Flutter SDK
+- Dart SDK
+- Android Studio or Visual Studio Code
+- An Android emulator or physical device
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/moaazk714/Rendom_Quote_Generator.git
+```
+
+Open the project directory:
+
+```bash
+cd Rendom_Quote_Generator
+```
+
+Install dependencies:
+
+```bash
+flutter pub get
+```
+
+Run the application:
+
+```bash
+flutter run
+```
+
+## Run Checks
+
+Run Flutter static analysis:
+
+```bash
+flutter analyze
+```
+
+Run automated tests:
+
+```bash
+flutter test
+```
+
+## Data Storage
+
+Daily Spark uses SharedPreferences to store favorites, custom quotes, and relevant app state locally on the device.
+
+## Internship Project
+
+Developed as a project for the **CodeAlpha Flutter Development Internship**.
+
+This project demonstrates practical use of Flutter, Dart, Provider state management, local data persistence, and interactive mobile UI development.
+
+## Developer
+
+**Muhammad Moaaz**
+
+GitHub: [@moaazk714](https://github.com/moaazk714)
+
+---
+
+*Daily Spark – A little inspiration, one quote at a time.*
