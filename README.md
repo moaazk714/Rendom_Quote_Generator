@@ -13,6 +13,20 @@ Daily Spark is a Flutter-based quote application that helps users discover inspi
 - **Mindful Reflection:** Use the breathing timer for a short mindful break.
 - **Local Persistence:** Keep favorites and custom quotes saved on the device.
 
+## 📸 Screenshots
+
+### Main Dashboard
+![Daily Spark main dashboard](screenshots/Main%20Dashboard.jpeg)
+
+### Favorites
+![Daily Spark favorites screen](screenshots/Favourite%20screen.jpeg)
+
+### Create Your Own Quote
+![Daily Spark create quote screen](screenshots/Create%20Your%20Quote%20screen.jpeg)
+
+### Explore All Quotes
+![Daily Spark all quotes screen](screenshots/All%20Quotes%20screen.jpeg)
+
 ## Technologies Used
 
 - Flutter
